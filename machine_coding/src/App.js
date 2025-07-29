@@ -4,6 +4,7 @@ import './App.css';
 // import { TodoList } from './components/TodoList';
 // import { PaginationExample } from './components/PaginationExample';
 import { StarRating } from './components/StarRating';
+import { CreateDynamicCards } from './components/CreateDynamicButtons';
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       <SimpleRefExample />
       <TodoList />
       <PaginationExample /> */}
-      <StarRating />
+      {/* <StarRating /> */}
+      <CreateDynamicCards />
     </div>
   );
 }
