@@ -2,6 +2,13 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## To do Prettier
+To format a single file:
+npx prettier your-file.js --write
+
+To format all files in the project:
+npx prettier . --write
+
 ## Available Scripts
 
 In the project directory, you can run:
