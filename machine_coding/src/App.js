@@ -5,6 +5,7 @@ import './App.css';
 // import { PaginationExample } from './components/PaginationExample';
 import { StarRating } from './components/StarRating';
 import { CreateDynamicCards } from './components/CreateDynamicButtons';
+import { StopWatch } from './components/StopWatch';
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
       <TodoList />
       <PaginationExample /> */}
       {/* <StarRating /> */}
-      <CreateDynamicCards />
+      {/* <CreateDynamicCards /> */}
+      <StopWatch />
     </div>
   );
 }
