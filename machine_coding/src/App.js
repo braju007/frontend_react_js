@@ -3,9 +3,10 @@ import './App.css';
 // import { SimpleRefExample } from './components/SimpleRefExample';
 // import { TodoList } from './components/TodoList';
 // import { PaginationExample } from './components/PaginationExample';
-import { StarRating } from './components/StarRating';
-import { CreateDynamicCards } from './components/CreateDynamicButtons';
-import { StopWatch } from './components/StopWatch';
+// import { StarRating } from './components/StarRating';
+// import { CreateDynamicCards } from './components/CreateDynamicButtons';
+// import { StopWatch } from './components/StopWatch';
+import { FetchUsersData } from './components/FetchUsersData';
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
       <PaginationExample /> */}
       {/* <StarRating /> */}
       {/* <CreateDynamicCards /> */}
-      <StopWatch />
+      {/* <StopWatch /> */}
+      <FetchUsersData />
     </div>
   );
 }
