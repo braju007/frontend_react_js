@@ -1,0 +1,41 @@
+/* Traffic Light Component */
+.traffic-board {
+  /* height:100vh; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.traffic-light {
+  background: #222;
+  border-radius: 30px;
+  width: 90px;
+  padding: 25px 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 0 15px #444;
+}
+.circle {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin: 10px auto;
+  background-color: #333;
+}
+.red-on {
+  background: #d52b1e;
+  opacity: 1;
+  box-shadow: 0 0 24px #d52b1e;
+}
+
+.yellow-on {
+  background: #ffed00;
+  opacity: 1;
+  box-shadow: 0 0 24px #ffed00;
+}
+
+.green-on {
+  background: #00bb2d;
+  opacity: 1;
+  box-shadow: 0 0 24px #00bb2d;
+}
