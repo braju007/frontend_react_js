@@ -6,7 +6,8 @@ import './App.css';
 // import { StarRating } from './components/StarRating';
 // import { CreateDynamicCards } from './components/CreateDynamicButtons';
 // import { StopWatch } from './components/StopWatch';
-import { FetchUsersData } from './components/FetchUsersData';
+// import { FetchUsersData } from './components/FetchUsersData';
+import { TrafficLights } from './components/TrafficLights';
 
 function App() {
   return (
@@ -14,11 +15,12 @@ function App() {
       {/* <SimpleCounter />
       <SimpleRefExample />
       <TodoList />
-      <PaginationExample /> */}
-      {/* <StarRating /> */}
-      {/* <CreateDynamicCards /> */}
-      {/* <StopWatch /> */}
-      <FetchUsersData />
+      <PaginationExample />
+      <StarRating />
+      <CreateDynamicCards />
+      <StopWatch />
+      <FetchUsersData /> */}
+      <TrafficLights />
     </div>
   );
 }
