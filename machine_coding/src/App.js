@@ -9,7 +9,8 @@ import './App.css';
 // import { FetchUsersData } from './components/FetchUsersData';
 // import { TrafficLights } from './components/TrafficLights';
 // import { SearchQuery } from './components/SearchQuery';
-import { VirtualisedListData } from './components/VirtualisedListData';
+// import { VirtualisedListData } from './components/VirtualisedListData';
+import { TogglePasswordVisibility } from './components/TogglePasswordVisibility';
 
 function App() {
   return (
@@ -23,8 +24,9 @@ function App() {
       <StopWatch />
       <FetchUsersData /> 
       <TrafficLights />
-      <SearchQuery /> */}
-      <VirtualisedListData />
+      <SearchQuery /> 
+      <VirtualisedListData /> */}
+      <TogglePasswordVisibility />
     </div>
   );
 }
