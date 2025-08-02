@@ -8,7 +8,8 @@ import './App.css';
 // import { StopWatch } from './components/StopWatch';
 // import { FetchUsersData } from './components/FetchUsersData';
 // import { TrafficLights } from './components/TrafficLights';
-import { SearchQuery } from './components/SearchQuery';
+// import { SearchQuery } from './components/SearchQuery';
+import { VirtualisedListData } from './components/VirtualisedListData';
 
 function App() {
   return (
@@ -21,8 +22,9 @@ function App() {
       <CreateDynamicCards />
       <StopWatch />
       <FetchUsersData /> 
-      <TrafficLights />*/}
-      <SearchQuery />
+      <TrafficLights />
+      <SearchQuery /> */}
+      <VirtualisedListData />
     </div>
   );
 }
