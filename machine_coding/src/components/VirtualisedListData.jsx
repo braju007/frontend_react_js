@@ -32,7 +32,7 @@ export const VirtualisedListData = () => {
       <div
         style={{
           ...style,
-          gap:'10px',
+          gap: '10px',
           padding: '10px',
           boxSizing: 'border-box',
         }}
@@ -45,7 +45,7 @@ export const VirtualisedListData = () => {
             border: '1px solid red',
             borderRadius: '15px',
             padding: '10px',
-            margin:'10px',
+            margin: '10px',
             display: 'flex',
             alignItems: 'center',
           }}
@@ -60,10 +60,10 @@ export const VirtualisedListData = () => {
     <div style={{ margin: '20px' }}>
       <h1>Virtualised Data Rendering Example (react-window):</h1>
       <List
-        height={600}         // total height of the visible list
+        height={600} // total height of the visible list
         itemCount={posts.length}
-        itemSize={200}       // height of each item (match container height)
-        width={'100%'}       // or a fixed width like 800
+        itemSize={200} // height of each item (match container height)
+        width={'100%'} // or a fixed width like 800
       >
         {Row}
       </List>
