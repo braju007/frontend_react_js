@@ -10,7 +10,8 @@ import './App.css';
 // import { TrafficLights } from './components/TrafficLights';
 // import { SearchQuery } from './components/SearchQuery';
 // import { VirtualisedListData } from './components/VirtualisedListData';
-import { TogglePasswordVisibility } from './components/TogglePasswordVisibility';
+// import { TogglePasswordVisibility } from './components/TogglePasswordVisibility';
+import { UtilizeDebounceHook } from './components/UtilizeDebounceHook';
 
 function App() {
   return (
@@ -25,8 +26,9 @@ function App() {
       <FetchUsersData /> 
       <TrafficLights />
       <SearchQuery /> 
-      <VirtualisedListData /> */}
-      <TogglePasswordVisibility />
+      <VirtualisedListData /> 
+      <TogglePasswordVisibility /> */}
+      <UtilizeDebounceHook />
     </div>
   );
 }
