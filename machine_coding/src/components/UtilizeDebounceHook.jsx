@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useDebounce } from './customHooks/useDebounce';
+import { useDebounce } from '../customHooks/useDebounce';
 
 export const UtilizeDebounceHook = () => {
   const [data, setData] = useState({});
