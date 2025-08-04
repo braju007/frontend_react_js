@@ -11,7 +11,8 @@ import './App.css';
 // import { SearchQuery } from './components/SearchQuery';
 // import { VirtualisedListData } from './components/VirtualisedListData';
 // import { TogglePasswordVisibility } from './components/TogglePasswordVisibility';
-import { UtilizeDebounceHook } from './components/UtilizeDebounceHook';
+// import { UtilizeDebounceHook } from './components/UtilizeDebounceHook';
+import { ValidateOTP } from './components/ValidateOTP';
 
 function App() {
   return (
@@ -27,8 +28,9 @@ function App() {
       <TrafficLights />
       <SearchQuery /> 
       <VirtualisedListData /> 
-      <TogglePasswordVisibility /> */}
-      <UtilizeDebounceHook />
+      <TogglePasswordVisibility /> 
+      <UtilizeDebounceHook /> */}
+      <ValidateOTP />
     </div>
   );
 }
