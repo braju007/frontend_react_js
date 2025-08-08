@@ -13,7 +13,8 @@ import './App.css';
 // import { TogglePasswordVisibility } from './components/TogglePasswordVisibility';
 // import { UtilizeDebounceHook } from './components/UtilizeDebounceHook';
 // import { ValidateOTP } from './components/ValidateOTP';
-import { FileExplorer } from './components/FileExplorer';
+// import { FileExplorer } from './components/FileExplorer';
+import { TimerStopWatch } from './components/TimerStopWatch';
 
 function App() {
   return (
@@ -31,8 +32,9 @@ function App() {
       <VirtualisedListData /> 
       <TogglePasswordVisibility /> 
       <UtilizeDebounceHook /> 
-      <ValidateOTP /> */}
-      <FileExplorer />
+      <ValidateOTP /> 
+      <FileExplorer /> */}
+      <TimerStopWatch />
     </div>
   );
 }
