@@ -41,7 +41,7 @@ export const FileExplorer = ({ dummyJSON = dummyJSONData }) => {
   const [isExpanded, setIsExpanded] = useState({});
 
   return (
-    <div style={{ paddingLeft: '20px', textAlign: 'left', pointer:'cursor' }}>
+    <div style={{ paddingLeft: '20px', textAlign: 'left', pointer: 'cursor' }}>
       {dummyJSON.map((node) => (
         <div>
           {node.isFolder && (
