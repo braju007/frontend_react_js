@@ -14,7 +14,8 @@ import './App.css';
 // import { UtilizeDebounceHook } from './components/UtilizeDebounceHook';
 // import { ValidateOTP } from './components/ValidateOTP';
 // import { FileExplorer } from './components/FileExplorer';
-import { TimerStopWatch } from './components/TimerStopWatch';
+// import { TimerStopWatch } from './components/TimerStopWatch';
+import BMICalculator from './components/BMICalculator';
 
 function App() {
   return (
@@ -33,8 +34,9 @@ function App() {
       <TogglePasswordVisibility /> 
       <UtilizeDebounceHook /> 
       <ValidateOTP /> 
-      <FileExplorer /> */}
-      <TimerStopWatch />
+      <FileExplorer /> 
+      <TimerStopWatch /> */}
+      <BMICalculator />
     </div>
   );
 }
