@@ -18,7 +18,8 @@ import './App.css';
 // import BMICalculator from './components/BMICalculator';
 // import { ChipsInput } from './components/ChipsInput';
 // import { UtilizeCounterHook } from './components/UtilizeCounterHook';
-import { GuessTheNumber } from './components/GuessTheNumber';
+// import { GuessTheNumber } from './components/GuessTheNumber';
+import { StringZigzagConverter } from './components/StringZigzagConverter';
 
 function App() {
   return (
@@ -41,8 +42,9 @@ function App() {
       <TimerStopWatch /> 
       <BMICalculator /> 
       <ChipsInput /> 
-      <UtilizeCounterHook /> */}
-      <GuessTheNumber />
+      <UtilizeCounterHook /> 
+      <GuessTheNumber /> */}
+      <StringZigzagConverter />
     </div>
   );
 }
