@@ -16,7 +16,8 @@ import './App.css';
 // import { FileExplorer } from './components/FileExplorer';
 // import { TimerStopWatch } from './components/TimerStopWatch';
 // import BMICalculator from './components/BMICalculator';
-import { ChipsInput } from './components/ChipsInput';
+// import { ChipsInput } from './components/ChipsInput';
+import { UtilizeCounterHook } from './components/UtilizeCounterHook';
 
 function App() {
   return (
@@ -37,8 +38,9 @@ function App() {
       <ValidateOTP /> 
       <FileExplorer /> 
       <TimerStopWatch /> 
-      <BMICalculator /> */}
-      <ChipsInput />
+      <BMICalculator /> 
+      <ChipsInput /> */}
+      <UtilizeCounterHook />
     </div>
   );
 }
