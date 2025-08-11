@@ -17,7 +17,8 @@ import './App.css';
 // import { TimerStopWatch } from './components/TimerStopWatch';
 // import BMICalculator from './components/BMICalculator';
 // import { ChipsInput } from './components/ChipsInput';
-import { UtilizeCounterHook } from './components/UtilizeCounterHook';
+// import { UtilizeCounterHook } from './components/UtilizeCounterHook';
+import { GuessTheNumber } from './components/GuessTheNumber';
 
 function App() {
   return (
@@ -39,8 +40,9 @@ function App() {
       <FileExplorer /> 
       <TimerStopWatch /> 
       <BMICalculator /> 
-      <ChipsInput /> */}
-      <UtilizeCounterHook />
+      <ChipsInput /> 
+      <UtilizeCounterHook /> */}
+      <GuessTheNumber />
     </div>
   );
 }
