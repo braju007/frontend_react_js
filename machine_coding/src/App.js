@@ -20,7 +20,8 @@ import './App.css';
 // import { UtilizeCounterHook } from './components/UtilizeCounterHook';
 // import { GuessTheNumber } from './components/GuessTheNumber';
 // import { StringZigzagConverter } from './components/StringZigzagConverter';
-import { TabsSwitcher } from './components/TabsSwitcher';
+// import { TabsSwitcher } from './components/TabsSwitcher';
+import { DiceRoller } from './components/DiceRoller';
 
 function App() {
   return (
@@ -45,8 +46,9 @@ function App() {
       <ChipsInput /> 
       <UtilizeCounterHook /> 
       <GuessTheNumber /> 
-      <StringZigzagConverter /> */}
-      <TabsSwitcher />
+      <StringZigzagConverter /> 
+      <TabsSwitcher /> */}
+      <DiceRoller />
     </div>
   );
 }
