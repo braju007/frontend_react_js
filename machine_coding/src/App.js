@@ -22,7 +22,8 @@ import './App.css';
 // import { StringZigzagConverter } from './components/StringZigzagConverter';
 // import { TabsSwitcher } from './components/TabsSwitcher';
 // import { DiceRoller } from './components/DiceRoller';
-import { MultiStepForm } from './components/MultiStepForn';
+// import { MultiStepForm } from './components/MultiStepForm';
+import { SimpleUseReducer } from './components/SimpleUseReducer';
 
 function App() {
   return (
@@ -49,8 +50,9 @@ function App() {
       <GuessTheNumber /> 
       <StringZigzagConverter /> 
       <TabsSwitcher /> 
-      <DiceRoller /> */}
-      <MultiStepForm />
+      <DiceRoller /> 
+      <MultiStepForm /> */}
+      <SimpleUseReducer />
     </div>
   );
 }
