@@ -23,7 +23,8 @@ import './App.css';
 // import { TabsSwitcher } from './components/TabsSwitcher';
 // import { DiceRoller } from './components/DiceRoller';
 // import { MultiStepForm } from './components/MultiStepForm';
-import { SimpleUseReducer } from './components/SimpleUseReducer';
+// import { SimpleUseReducer } from './components/SimpleUseReducer';
+import { DropDownExample } from './components/DropDownExample';
 
 function App() {
   return (
@@ -51,8 +52,9 @@ function App() {
       <StringZigzagConverter /> 
       <TabsSwitcher /> 
       <DiceRoller /> 
-      <MultiStepForm /> */}
-      <SimpleUseReducer />
+      <MultiStepForm /> 
+      <SimpleUseReducer /> */}
+      <DropDownExample />
     </div>
   );
 }
