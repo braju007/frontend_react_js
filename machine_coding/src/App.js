@@ -24,7 +24,8 @@ import './App.css';
 // import { DiceRoller } from './components/DiceRoller';
 // import { MultiStepForm } from './components/MultiStepForm';
 // import { SimpleUseReducer } from './components/SimpleUseReducer';
-import { DropDownExample } from './components/DropDownExample';
+// import { DropDownExample } from './components/DropDownExample';
+import { CalculateTwoNumbers } from './components/CalculateTwoNumbers';
 
 function App() {
   return (
@@ -53,8 +54,9 @@ function App() {
       <TabsSwitcher /> 
       <DiceRoller /> 
       <MultiStepForm /> 
-      <SimpleUseReducer /> */}
-      <DropDownExample />
+      <SimpleUseReducer /> 
+      <DropDownExample /> */}
+      <CalculateTwoNumbers />
     </div>
   );
 }
