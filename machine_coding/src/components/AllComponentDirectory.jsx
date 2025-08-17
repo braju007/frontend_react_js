@@ -29,6 +29,7 @@ import { MultiStepForm } from './MultiStepForm';
 import { SimpleUseReducer } from './SimpleUseReducer';
 import { DropDownExample } from './DropDownExample';
 import { CalculateTwoNumbers } from './CalculateTwoNumbers';
+import { SortListSimpleExample } from './SortListSimpleExample';
 
 // 🔹 List of components and their routes
 const componentsList = [
@@ -114,6 +115,11 @@ const componentsList = [
     name: 'CalculateTwoNumbers',
     path: '/CalculateTwoNumbers',
     component: CalculateTwoNumbers,
+  },
+  {
+    name: 'SortListSimpleExample',
+    path: '/SortListSimpleExample',
+    component: SortListSimpleExample,
   },
 ];
 
