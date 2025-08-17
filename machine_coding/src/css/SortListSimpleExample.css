@@ -1,0 +1,51 @@
+.sortable-list-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.sortable-list-container h3 {
+  text-align: center;
+  color: #333;
+}
+
+.sortable-list-container input {
+  width: calc(100% - 90px);
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.sortable-list-container button {
+  padding: 8px 12px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.sortable-list-container button:hover {
+  background-color: #0056b3;
+}
+
+.sortable-list-container div {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.list-items {
+  background-color: #e9ecef;
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
