@@ -30,6 +30,7 @@ import { SimpleUseReducer } from './SimpleUseReducer';
 import { DropDownExample } from './DropDownExample';
 import { CalculateTwoNumbers } from './CalculateTwoNumbers';
 import { SortListSimpleExample } from './SortListSimpleExample';
+import { UndoRedoTextExample } from './UndoRedoTextExample';
 
 // 🔹 List of components and their routes
 const componentsList = [
@@ -120,6 +121,11 @@ const componentsList = [
     name: 'SortListSimpleExample',
     path: '/SortListSimpleExample',
     component: SortListSimpleExample,
+  },
+  {
+    name: 'UndoRedoTextExample',
+    path: '/UndoRedoTextExample',
+    component: UndoRedoTextExample,
   },
 ];
 
