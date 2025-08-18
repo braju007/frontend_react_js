@@ -31,6 +31,7 @@ import { DropDownExample } from './DropDownExample';
 import { CalculateTwoNumbers } from './CalculateTwoNumbers';
 import { SortListSimpleExample } from './SortListSimpleExample';
 import { UndoRedoTextExample } from './UndoRedoTextExample';
+import { CardGame } from './CardGame';
 
 // 🔹 List of components and their routes
 const componentsList = [
@@ -126,6 +127,11 @@ const componentsList = [
     name: 'UndoRedoTextExample',
     path: '/UndoRedoTextExample',
     component: UndoRedoTextExample,
+  },
+  {
+    name: 'CardGame',
+    path: '/CardGame',
+    component: CardGame,
   },
 ];
 
