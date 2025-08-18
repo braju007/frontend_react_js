@@ -1,0 +1,23 @@
+.undoRedo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  width: 300px;
+  text-align: center;
+}
+.textarea {
+  width: 180px;
+  height: 40px;
+  padding: 5px 10px;
+}
+.buttons {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.buttons button {
+  padding: 5px 10px;
+}
