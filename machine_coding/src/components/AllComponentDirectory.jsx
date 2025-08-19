@@ -37,6 +37,9 @@ import { ToggleDarkLightTheme } from './ToggleDarkLightTheme';
 import { LocalStorageUsage } from './LocalStorageUsage';
 import { CheckboxExample } from './CheckboxExample';
 import { RadioButtonsCreateDynamically } from './RadioButtonsCreateDynamically';
+import { ModalSimpleExample } from './ModalSimpleExample';
+import { SortListInMultipleWay } from './SortListInMultipleWay';
+import { CardCarousel } from './CardCarousel';
 
 // 🔹 List of components and their routes
 const componentsList = [
@@ -162,6 +165,21 @@ const componentsList = [
     name: 'RadioButtonsCreateDynamically',
     path: '/RadioButtonsCreateDynamically',
     component: RadioButtonsCreateDynamically,
+  },
+  {
+    name: 'ModalSimpleExample',
+    path: '/ModalSimpleExample',
+    component: ModalSimpleExample,
+  },
+  {
+    name: 'SortListInMultipleWay',
+    path: '/SortListInMultipleWay',
+    component: SortListInMultipleWay,
+  },
+  {
+    name: 'CardCarousel',
+    path: '/CardCarousel',
+    component: CardCarousel,
   },
 ];
 
