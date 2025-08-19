@@ -32,6 +32,11 @@ import { CalculateTwoNumbers } from './CalculateTwoNumbers';
 import { SortListSimpleExample } from './SortListSimpleExample';
 import { UndoRedoTextExample } from './UndoRedoTextExample';
 import { CardGame } from './CardGame';
+import { CountDownTimer } from './CountDownTimer';
+import { ToggleDarkLightTheme } from './ToggleDarkLightTheme';
+import { LocalStorageUsage } from './LocalStorageUsage';
+import { CheckboxExample } from './CheckboxExample';
+import { RadioButtonsCreateDynamically } from './RadioButtonsCreateDynamically';
 
 // 🔹 List of components and their routes
 const componentsList = [
@@ -132,6 +137,31 @@ const componentsList = [
     name: 'CardGame',
     path: '/CardGame',
     component: CardGame,
+  },
+  {
+    name: 'CountDownTimer',
+    path: '/CountDownTimer',
+    component: CountDownTimer,
+  },
+  {
+    name: 'ToggleDarkLightTheme',
+    path: '/ToggleDarkLightTheme',
+    component: ToggleDarkLightTheme,
+  },
+  {
+    name: 'LocalStorageUsage',
+    path: '/LocalStorageUsage',
+    component: LocalStorageUsage,
+  },
+  {
+    name: 'CheckboxExample',
+    path: '/CheckboxExample',
+    component: CheckboxExample,
+  },
+  {
+    name: 'RadioButtonsCreateDynamically',
+    path: '/RadioButtonsCreateDynamically',
+    component: RadioButtonsCreateDynamically,
   },
 ];
 
