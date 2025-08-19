@@ -40,6 +40,13 @@ import { RadioButtonsCreateDynamically } from './RadioButtonsCreateDynamically';
 import { ModalSimpleExample } from './ModalSimpleExample';
 import { SortListInMultipleWay } from './SortListInMultipleWay';
 import { CardCarousel } from './CardCarousel';
+import { Accordion } from './Accordion';
+import { DataFetchAndTabularData } from './DataFetchAndTabularData';
+import { CounterWithPreviousValue } from './CounterWithPreviousValue';
+import { UtilizeUseToggleHook } from './UtilizeUseToggleHook';
+import { ProgressBar } from './ProgressBar';
+import { ShowHideUserBio } from './ShowHideUserBio';
+import { ImageGallery } from './ImageGallery';
 
 // 🔹 List of components and their routes
 const componentsList = [
@@ -180,6 +187,41 @@ const componentsList = [
     name: 'CardCarousel',
     path: '/CardCarousel',
     component: CardCarousel,
+  },
+  {
+    name: 'Accordion',
+    path: '/Accordion',
+    component: Accordion,
+  },
+  {
+    name: 'DataFetchAndTabularData',
+    path: '/DataFetchAndTabularData',
+    component: DataFetchAndTabularData,
+  },
+  {
+    name: 'CounterWithPreviousValue',
+    path: '/CounterWithPreviousValue',
+    component: CounterWithPreviousValue,
+  },
+  {
+    name: 'UtilizeUseToggleHook',
+    path: '/UtilizeUseToggleHook',
+    component: UtilizeUseToggleHook,
+  },
+  {
+    name: 'ProgressBar',
+    path: '/ProgressBar',
+    component: ProgressBar,
+  },
+  {
+    name: 'ShowHideUserBio',
+    path: '/ShowHideUserBio',
+    component: ShowHideUserBio,
+  },
+  {
+    name: 'ImageGallery',
+    path: '/ImageGallery',
+    component: ImageGallery,
   },
 ];
 
